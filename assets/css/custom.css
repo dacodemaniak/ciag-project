@@ -1,7 +1,22 @@
 :root {
-    --primary: rgba(100, 25, 200, 1);
+    --primary: rgb(70, 163, 53);
+    --texte: rgb(9, 10, 102);
+    --soustext: rgb(236, 13, 13);
+    --findetexte: rgba(214, 201, 9, 0.527);
 }
 
 h1 {
     color: var(--primary)
+}
+
+h2 {
+    color: var(--text)
+}
+
+h3 {
+    color: var(--soustext)
+}
+
+h4 {
+    color: var(--findetexte)
 }
